@@ -1,0 +1,70 @@
+/* Base styles for larger screens */
+.travelplan-body-background {
+    background-image: url('./assets//beach2.avif');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 100;
+
+    z-index: -1;
+}
+
+.app {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 8rem;
+}
+
+.header {
+    text-align: center;
+    background-color: #0074e4;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+.precautions {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+/* Responsive styles  */
+@media screen and (max-width: 850px) {
+    .app {
+        max-width: 80%;
+    }
+
+    .header {
+        padding: 5px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
